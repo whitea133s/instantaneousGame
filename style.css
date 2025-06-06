@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+.lump {
+  display: block;
+  background-color: rgb(255, 0, 0);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 3px rgb(255, 213, 213),
+    3px 3px 5px 5px rgb(255, 166, 0) inset;
+  margin: 50px auto;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+}
