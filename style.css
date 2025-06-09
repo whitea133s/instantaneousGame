@@ -22,14 +22,18 @@ h2 {
   align-items: center;
 }
 
-.lump {
-  display: block;
+#lump {
+  /* display: block; */
   background-color: #ff4d4d;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   box-shadow: 0 0 15px #ff4d4d, 0 0 30px #ff1a1a, 0 0 45px #e60000,
     0 0 60px #b30000;
+}
+
+.hidden {
+  display: none;
 }
 
 .start {
