@@ -23,7 +23,6 @@ h2 {
 }
 
 #lump {
-  /* display: block; */
   background-color: #ff4d4d;
   width: 200px;
   height: 200px;
@@ -36,9 +35,11 @@ h2 {
   display: none;
 }
 
-.start {
+button {
+  width: 109px;
   height: 50px;
   cursor: pointer;
+  border-radius: 10%;
 }
 
 .play {
