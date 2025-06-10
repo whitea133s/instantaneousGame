@@ -12,14 +12,19 @@
     </header>
     <main>
       <h2>ランプが点灯したらボタンをクリックしよう</h2>
-      <button id="start">ゲームスタート</button>
-      <button id="reset">リセット</button>
+      <div class="play-button">
+        <button id="start">ゲームスタート</button>
+        <button id="reset">リセット</button>
+      </div>
       <div class="gameFilm">
         <div id="lump" class="hidden"></div>
       </div>
       <div class="wrapper">
         <button id="judg">ここをクリック</button>
-        <div class="score"></div>
+        <div class="scorebord">
+          <p>スコアボード！！</p>
+          <div class="score"></div>
+        </div>
       </div>
     </main>
     <script src="game.js"></script>
